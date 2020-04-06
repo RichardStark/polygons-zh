@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+<head>
+
+	<!-- Place this data between the <head> tags of your website -->
+	<title>多边形的寓言-一个关于无害选择是如何创造出一个伤害性的世界</title>
+	<meta name="description" content="A playable post on how harmless choices can make a harmful world." />
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="Parable of the Polygons">
+	<meta itemprop="description" content="A playable post on how harmless choices can make a harmful world.">
+	<meta itemprop="image" content="http://ncase.me/polygons/social/thumbnail.png">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ncasenmare">
+	<meta name="twitter:title" content="Parable of the Polygons">
+	<meta name="twitter:description" content="A playable post on how harmless choices can make a harmful world.">
+	<meta name="twitter:creator" content="@vihartvihart">
+	<meta name="twitter:image" content="http://ncase.me/polygons/social/thumbnail.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Parable of the Polygons">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://ncase.me/polygons">
+	<meta property="og:image" content="http://ncase.me/polygons/social/thumbnail.png">
+	<meta property="og:description" content="A playable post on how harmless choices can make a harmful world.">
+	<meta property="og:site_name" content="Parable of the Polygons">
+
+	<!-- CSS -->
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+	<!-- CARTOONS -->
+	<div id="cartoon_container">
+		<img id="cartoon" width="270" src=""/>
+		<div id="cartoon_arrow"></div>
+	</div>
+
+	<!-- SPLASH -->
+	<div id="intro_container">
+		<div id="intro">
+			<iframe src="play/intro/intro.html" id="intro_background" scrolling="no"></iframe>
+		</div>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+
+		<p><strong>看似无害的选择如何造成了一个有害的世界，这个故事为你讲述。</strong></p>
+		<p>
+			这些小可爱有一半是三角形，另一半是正方形，他们都有一点“<s>种族</s>图形主义”，但只有一点点，
+			实际上，他们 <b>更愿意</b> 处在不同的人群之间：
+		</p>
+
+		<iframe id="mini_intro" playable src="play/mini/mini_intro.html" width="800" height="385" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+			当他们对自己的邻居不满意的时候，你才可以把他们搬走。
+			一旦他们确定了自己的位置，你就不能移动他们，除非他们再次对自己的邻居不满意。
+			他们有一个很简单的原则：
+		</p>
+
+		<p style="text-align:center">
+			<b>
+			”如果我的邻居中，像我这样的<s>人</s>形状不到三分之一，我就想搬家“
+			</b>
+		</p>
+		<iframe playable src="play/mini/mini_unhappy.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:-30px"  embedded></iframe>
+		<iframe playable src="play/mini/mini_happy.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px"  embedded></iframe>
+		<iframe playable src="play/mini/mini_bored.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:30px"  embedded></iframe>
+		<div style="clear:both;height: 0;position: relative;">
+			<div style="width: 4px; height: 290px; background: #bbb;position: absolute;top: -292px;left: 245px;"></div>
+			<div style="width: 4px; height: 290px; background: #bbb;position: absolute;top: -292px;left: 537px;"></div>
+		</div>
+		<br>
+
+		<p>
+			这是无害的，对吧？
+			每个图形都很高兴有一个不一样的邻居。
+			他们的小偏见肯定不会对整体社会的形态产生什么大影响吧？
+			行吧。
+		</p>
+		<div class="instruction">
+			拖拽不开心的图形，直到没有图形是不开心的：<br>
+			<span style="font-size:18px">（先不要想太多，只要把它们移动到随机的空位即可。）</span>
+		</div>
+
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/manual/manual.html" width="550" height="650"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter"> 
+		<p>
+			然后……我们的社会变得超级分裂了...这TM咋回事...
+		</p>
+		<p>
+			一个三角形社区是很欢迎一个正方形的，
+			但是如果正方形不感兴趣的话，他们也无能为力。
+			而有时一个社区内只有正方形。
+			如果没有一个三角形愿意留在这里，那也不是他们的错。
+			
+		</p>
+		
+		<iframe id="mini_neighborhood" playable src="play/mini/mini_neighborhood.html" width="730" height="240" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+			下面这个模拟器中，不开心的图形会自动移动到随机的空位。
+			还有一个图表记录了随着时间推移，<s>种族</s>形状分裂的程度。。
+		</p>
+		<div class="instruction">
+			运行几次这个模拟器，看看会发生什么？
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic.html" style="position:relative;left:10px" width="1050" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+			怎么回事？他们都是品行善良、三观端正的图形的啊。
+			然而，尽管每个图形只有一点点偏见，这个图形社会却会分崩离析。
+		</p>
+		
+		<iframe id="mini_checkerboard" playable src="play/mini/mini_checkerboard.html" width="730" height="240" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+			<strong>小的个体偏见会导致大的群体偏见。</strong>
+		</p>
+		<p>	
+			平等是一种不稳定的平衡。
+			哪怕是最微小的偏见，也能让整个社会超越临界点。
+			那么，如果让这些形状的偏见归零呢？
+			（或者你感觉今天真倒霉，要把偏见值调大呢？）
+		</p>
+		<div class="instruction">
+			使用滑块来调整形状的个体偏见：
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic2.html" style="position:relative;left:10px" width="1050" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+			注意到了嘛，当偏见增加到超过 33% 时，分裂的事情开始变得严重。
+			如果阈值调至 50% 呢？
+			对于一个不希望成为少数派的图形来说，这似乎是讲得通的。
+		</p>
+		
+		<iframe id="mini_bias_1" playable src="play/mini/mini_bias_1.html" width="310" height="460" scrolling="no" style="float:left; margin:0; margin-left:50px" embedded></iframe>
+		<iframe id="mini_bias_2" playable src="play/mini/mini_bias_2.html" width="310" height="460" scrolling="no" style="float:right; margin:0; margin-right:50px" embedded></iframe>
+		<div style="clear:both;height: 0;position: relative;">
+			<div style="width: 6px; height: 400px; background: #bbb;position: absolute;top: -420px;left: 397px;"></div>
+		</div>
+
+		<p>
+			所以你说，把每个人的偏见都降低到0，不就行了吗？
+			哈哈，不行。现实世界不是每天都调动公民，重新开始的。
+			每一天都是从前一天的状态开始的。
+		</p>
+
+		<div class="instruction">
+			世界从分裂的状态开始。这时我们把偏见调低会发生什么？
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic3.html" style="position:relative;left:10px" width="1050" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+			看到了么？什么都 <b>没有</b> 发生。
+			没有融合的变化。
+			在一个曾经存在偏见的世界里，仅仅消除偏见是不够的。
+			我们需要更积极地措施。
+			如果每个图形主动寻求周围的多样性呢？
+		</p>
+		
+		<iframe id="mini_nonconform" playable src="play/mini/mini_nonconform.html" width="400" height="460" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+
+		<p>
+			哇！即使每个图形最多可以拥有 90% 的像他们这样的邻居，
+			他们也能很好地融合在一起。
+			我们来改变所有图形的偏见程度（希望分开）和反偏见程度（希望融合），
+			我们将看到更大的效果。
+		</p>
+		<div class="instruction">
+			假设世界从分裂状态开始，如果图形要求，自己的周围有那么一点点多样性，会怎样呢？
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic4.html" style="position:relative;left:10px" width="1050" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<p>
+			所要做的就是改变人们对可接受的环境的想法，就可以向好的方向发展。
+			所以各位，记住，这与三角形和正方形无关。
+			而是关于决定我们希望世界看起来像什么，并做出不懈的努力。
+		</p>
+		<p style="text-align:center">
+			<b>
+				把他们都移动到这个五彩缤纷的「友情」之框吧。
+				<span style="color:hsl(0,90%,60%)">F</span>
+				<span style="color:hsl(36,90%,60%)">R</span>
+				<span style="color:hsl(72,90%,45%)">I</span>
+				<span style="color:hsl(108,90%,60%)">E</span>
+				<span style="color:hsl(144,90%,60%)">N</span>
+				<span style="color:hsl(180,90%,60%)">D</span>
+				<span style="color:hsl(216,90%,60%)">S</span>
+				<span style="color:hsl(252,90%,60%)">H</span>
+				<span style="color:hsl(288,90%,60%)">I</span>
+				<span style="color:hsl(324,90%,60%)">P</span>
+				<br>
+				<span style="font-size:18px">（提示：不是把他们直接拖拽到框里面，而是让他们成对地移动）</span>
+			</b>
+		</p>
+
+		<iframe playable src="play/mini/mini_cooperate.html" width="810" height="290" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+		
+		<p>
+			一开始，独自闯荡可能是孤独的。
+			但通过齐心协力，一步一步地践行，我们就会到达那个美好。
+		</p>
+
+		<div class="instruction">
+			最后，终于有个大沙盒可以玩了。
+		</div>
+	</div>
+
+	<!-- PLAYABLE -->
+	<div class="playable">
+		<iframe playable src="play/automatic/automatic_sandbox.html" style="position:relative;left:10px" width="1050" height="600"></iframe>
+	</div>
+
+	<!-- CHAPTER -->
+	<div class="chapter">
+		<div class="instruction" style="font-size:50px; line-height:50px">
+			总结：
+		</div>
+		<p>
+			<b>1. 个体小偏见 &rarr; 群体大分裂 </b>
+			<br>
+			<!--Micromotives, macrobehaviour...-->
+			当某人说一种文化是xx主义时，他们并不是说其中的个人是xx主义者。他们不是在具体攻击你。
+		</p>
+		<p>
+			<b>2. 过去的桎梏会限制当下 </b>
+			<br>
+			您卧室的地板不会因为你不再把食物碎渣掉落至地板上而变得干净。
+			创造平等的社会就像保持清洁的地板，这需要很多努力，并且需要持之以恒。
+		</p>
+		<p>
+			<b>3. 在您的周围主动要求多样性</b>
+			<br>
+			如果一个小的偏见能造成了现在的困局，那么小的反偏见可能能解决问题。
+			看看你的周围：你的朋友、你的同事、你所参加的会议。
+			如果你们全都是三角形，那么你就错过了生命中一些令人惊奇的正方形，
+			这对每个人都不公平。走出来，向远方的邻居们打声招呼吧。
+		</p>
+		<iframe playable src="play/mini/mini_ending.html" width="600" height="80" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
+	</div>
+
+	<!-- References &amp; Remixes (Writing|Professor|Infographic|Video|Music -->
+	<div style="width: 100%; background: #222; overflow: hidden; color:#ddd">
+		<div class="chapter">
+			<div class="instruction">
+				感谢您和这篇博文互动。
+			</div>
+			<br>
+			<div style="font-size:16px; line-height:18px">
+
+				我们这个萌萌的分离模拟器是基于曾经获得诺贝尔奖的博弈论专家 托马斯·谢林
+				(Thomas Schelling). 特别是他在1971年发表的论文
+				<a target="_blank" href="http://www.stat.berkeley.edu/~aldous/157/Papers/Schelling_Seg_Models.pdf">
+				Dynamic Models of Segregation</a>.
+				我们在此基础上进行创作，显示了即使是很小的对多样性的要求也能使一个区域融合得很好。
+				换言之，我们给了这个模型一个完美结局。
+
+				<br><br>
+
+				谢林的模型基本上囊括了产生这一现象的原因，但是当然现实世界会更加复杂。
+				您可能会对现实世界的数据感兴趣，那么请阅读以下 W. A. V. Clark 在1991年发表的论文。
+				<a target="_blank" href="http://smg.media.mit.edu/library/Clark.ResidentialSegregation.pdf">A Test of the Schelling Segregation Model</a>.
+
+				<br><br>
+
+				关于有组织的偏见，下面还有几个数学模型：
+				<a target="_blank" href="http://www.ruf.rice.edu/~lane/papers/male_female.pdf">
+				Male-Female Differences: A Computer Simulation</a>
+				这篇论文旨在论述小的性别歧视如何随着在职场地位的提高而叠加。
+				<a target="_blank" href="http://iangent.blogspot.com/2013/10/the-petrie-multiplier-why-attack-on.html">
+				The Petrie Multiplier</a>
+				这篇论文旨在论述为什么在科技领域，对性差别主义的攻击<b>不是</b>对男性的攻击。
+
+				<br><br>
+
+				今天的小故事大道理&trade; 是在自己周围要求哪怕一点点的多样性
+				可以对社会整体产生重要的改变。请参照以下页面
+				<a target="_blank" href="http://plzdiversifyyourpanel.tumblr.com/">Plz Diversify Your Panel</a>,
+				这是一个「当被邀请参加讨论小组时如果没有多样化的成员，
+				那么被邀请的代表大多数的成员拒绝其邀请」的请愿。
+
+				<br><br>
+
+				我们这个「可玩页面」是启发自 Bret Victor 的
+				<a target="_blank" href="http://worrydream.com/ExplorableExplanations/">
+				Explorable Explanations</a> 和 Ian Bogost 的
+				<a target="_blank" href="http://bogost.com/books/persuasive_games/">
+				procedural rhetoric</a>.
+
+				<br><br>
+				<div style="border-bottom: 2px dashed #666"></div>
+
+				<span style="font-size:20px; line-height:30px">
+
+					<br>
+
+					<b style="font-size:25px;">捐助多样化项目，我们需要您的协力</b>
+					<br>
+					<a target="_blank" href="http://www.blackgirlscode.com/">Black Girls Code</a>
+					- 旨在为黑人女孩提供编程课程
+					<br>
+					<a target="_blank" href="http://girlswhocode.com/">Girls Who Code</a>
+					- 旨在教高中女生编程
+					<br>
+					<a target="_blank" href="http://code2040.org/">Code 2040</a>
+					- 旨在帮助黑人和拉丁美洲人进入科技世界
+					<br>
+					<a target="_blank" href="http://codeliberation.org/">Code Liberation</a>
+					- 免费的研究会，旨在帮助女性同胞们创作游戏
+					<br>
+					<a target="_blank" href="http://adainitiative.org/">Ada Initiative</a>
+					- 协助参加开源和开源文化的女性
+					<!--br>
+					Nicky's Patreon - makes public domain playables (such as Parable of the Polygons!)-->
+
+				</span>
+
+				<br><br>
+				<div style="border-bottom: 2px dashed #666"></div>
+
+				<span style="font-size:18px; line-height:22px">
+
+					<br>
+
+					<b>感谢这些协助我们公测的读者们：</b><br>
+					Andrea, Astrid, Catherine, Chris, Emily, Glen, Jocelyn, Laura, Marc, Marko, Zak
+
+					<br><br>
+
+					<b>在这些网站都有关于这篇页面的报道：</b><br>
+					<a target="_blank" href="http://www.wired.com/2014/12/empzeal-parable-polygons/">WIRED</a>,
+					<a target="_blank" href="http://www.washingtonpost.com/blogs/wonkblog/wp/2014/12/09/how-tiny-individual-biases-have-huge-cumulative-effects-on-racial-segregation/">Washington Post</a>,
+					<a target="_blank" href="http://boingboing.net/2014/12/08/parable-of-the-polygons-segre.html">BoingBoing</a>,
+					<a target="_blank" href="http://ccthing.tumblr.com/post/104764760336/parable-of-the-polygons-vi-hart-and-nicky-case">Creative Commons</a>,
+					<a target="_blank" href="http://killscreendaily.com/articles/parable-polygons-teaches-us-danger-and-power-individual-bias/">KillScreen</a>,
+					<a target="_blank" href="http://jayisgames.com/archives/2014/12/parable_of_the_polygons.php">JayIsGames</a>,
+					<a target="_blank" href="https://news.ycombinator.com/item?id=8716538">Hacker News</a>,
+					<a target="_blank" href="http://www.metafilter.com/145147/Parable-of-the-Polygons">MetaFilter</a>,
+					<a target="_blank" href="http://nymag.com/scienceofus/2014/12/these-cartoon-shapes-are-adorable-but-racist.html">New York Magazine</a>,
+					<a target="_blank" href="http://www.citylab.com/design/2014/12/an-immersive-game-shows-how-easily-segregation-arisesand-how-we-might-fix-it/383586/">The Atlantic's CityLab</a>
+
+					<br><br>
+
+					<b>翻译：</b><br>
+					<a target="_blank" href="http://ncase.me/polygons-es">西班牙语</a>,
+					<a target="_blank" href="http://ncase.me/polygons-fr">法语</a>,
+					<a target="_blank" href="http://ncase.me/polygons-de">德语</a>,
+					<a target="_blank" href="http://ncase.me/polygons-pt-br">葡萄牙语（巴西）</a>
+
+					<br><br>
+
+					<b>衍生作品：</b><br>
+					<a target="_blank" href="http://ncase.me/polygons-pentagons/play/automatic/automatic_sandbox_frame.html">Polygons with Pentagons</a>
+
+				</span>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- SPLASH -->
+	<div id="outro_container">
+		<div id="outro">
+			<iframe src="play/outro/outro.html" id="outro_background" scrolling="no"></iframe>
+		</div>
+	</div>
+
+</body>
+
+<script src="js/Mouse.js"></script>
+<script src="js/intro.js"></script>
+
+</html>
